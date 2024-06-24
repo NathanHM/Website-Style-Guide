@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url("Inconsolata-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    src: url("SourceCodePro-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("Montserrat-Regular.ttf");
+}
+
+body {
+    background-color: #262626;
+    color: white;
+}
+
+h1, h2 {
+    font-family: "Montserrat";
+    font-size: 100px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+footer {
+    display: inline;
+    width: 100%;
+    align-items: stretch;
+}
+
+footer p {
+    font-family: "Inconsolata", Arial, serif;
+}
