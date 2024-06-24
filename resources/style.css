@@ -28,11 +28,18 @@ h2 {
 }
 
 footer {
-    display: inline;
-    width: 100%;
-    align-items: stretch;
+    display: flex;
+    box-sizing: border-box;
+    width: 98%;
+    border: 1px solid grey;
+    justify-content: space-between;
+    position: absolute;
+    padding: 0px 10px;
+    margin-bottom: 0px;
+
 }
 
 footer p {
     font-family: "Inconsolata", Arial, serif;
+    display: inline;
 }
