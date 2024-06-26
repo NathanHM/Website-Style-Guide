@@ -13,6 +13,8 @@
     src: url("Montserrat-Regular.ttf");
 }
 
+
+
 body {
     background-color: #262626;
     display: block;
@@ -22,13 +24,22 @@ body {
     justify-content: center;
 }
 
-h1, h2, h3 {
+.dark-mode {
+    background-color: #e1e1e1;
+    color: black;
+}
+
+h1, h2, h3, h4 {
     font-family: "Montserrat";
 }
 
-h3 {
-    font-size: 20px;
+h3, h4 {
+    font-size: 30px;
     text-decoration: underline;
+}
+
+h4 {
+    font-size: 25px;
 }
 
 .banner {
@@ -36,11 +47,8 @@ h3 {
     justify-content: center;
 }
 
-.banner h1, h2 {
-    font-size: 100px;
-}
-
 .banner h1 {
+    font-size: 100px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -49,7 +57,6 @@ h3 {
     font-size: 50px;
     margin-top: 0px;
     padding-top: 0px;
-    margin-bottom: 0px;
 }
 
 .banner-text {
@@ -85,13 +92,10 @@ h3 {
 
 .dark-back {
     background-color: #262626;
-    border: 10px solid white;
 }
-
 
 .dark-highlight {
     background-color: #2b2b2b;
-    border: 10px solid white;
 }
 
 .light-back {
@@ -108,8 +112,11 @@ h3 {
 
 .border {
     background-color: #808080;
-    border: 10px solid white;
-    color: white
+    color: white;
+}
+
+.dark-mode .border {
+    border: 10px solid black;
 }
 
 .font-guide {
@@ -160,6 +167,11 @@ h3 {
     border-top: solid 2px grey;
     margin: 0px;
     justify-content: space-between;
+}
+
+.dark-mode .footer {
+    background-color: #bbbbbb;
+    color: black
 }
 
 .footer-name {
