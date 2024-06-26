@@ -177,6 +177,7 @@ a:active {
     box-sizing: border-box;
     display: inline-block;
     width: 49%;
+    vertical-align: top;
 }
 
 .font-guide ul {
