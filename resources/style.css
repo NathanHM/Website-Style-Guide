@@ -173,15 +173,15 @@ a:active {
     margin-bottom: 0px;
 }
 
-.font-guide ul {
-    display: flex;
-    justify-content: center;
-}
-
 .font-panel {
     box-sizing: border-box;
     display: inline-block;
     width: 49%;
+}
+
+.font-guide ul {
+    display: flex;
+    justify-content: center;
 }
 
 .font-panel p {
