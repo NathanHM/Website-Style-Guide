@@ -22,6 +22,7 @@ body {
     padding: 0px;
     margin: 0px;
     justify-content: center;
+    background-image: url("backPattern.png");
 }
 
 .dark-mode {
@@ -40,6 +41,7 @@ h3, h4 {
 
 h4 {
     font-size: 25px;
+    margin-bottom: 15px;
 }
 
 .banner {
@@ -59,11 +61,6 @@ h4 {
     padding-top: 0px;
 }
 
-.banner-text {
-    position: relative;
-    top: 200px;
-}
-
 .content {
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 20px;
@@ -72,7 +69,12 @@ h4 {
 
 .container {
     border: 2px solid grey;
-    margin: 5px 0px;
+    margin: 15px 0px;
+    background-color: #262626;
+}
+
+.dark-mode .container {
+    background-color: #e1e1e1;
 }
 
 .colour-guide {
@@ -95,17 +97,17 @@ h4 {
 }
 
 .dark-highlight {
-    background-color: #2b2b2b;
+    background-color: #383838;
 }
 
 .light-back {
-    background-color: #ECE9DC;
+    background-color: #e1e1e1;
     border: 10px solid black;
     color: black;
 }
 
 .light-highlight {
-    background-color: #f8f5eb;
+    background-color: #bbbbbb;
     border: 10px solid black;
     color: black;
 }
@@ -120,7 +122,16 @@ h4 {
 }
 
 .font-guide {
-    padding: 2px 10px;
+    padding: 2px 20px;
+}
+
+.font-guide h3 {
+    margin-bottom: 0px;
+}
+
+.font-guide ul {
+    display: flex;
+    justify-content: center;
 }
 
 .font-panel {
@@ -131,34 +142,37 @@ h4 {
 
 .font-panel p {
     font-size: 25px;
+    margin: 10px 0px;
+    padding-right: 5px;
 }
 
 .montserrat,
-.montserrat h3 {
+.montserrat h4 {
     font-family: "Montserrat";
 }
 
+.arial,
+.arial h4 {
+    font-family: Arial;
+}
+
 .source-code-pro,
-.source-code-pro h3 {
+.source-code-pro h4 {
     font-family: "Source Code Pro";
 }
 
 .inconsolata,
-.inconsolata h3 {
+.inconsolata h4 {
     font-family: "Inconsolata";
 }
 
-.arial,
-.arial h3 {
-    font-family: Arial;
-}
 
 .text-styles {
     padding: 2px 10px;
 }
 
 .footer {
-    background-color: #2b2b2b;
+    background-color: #383838;
     position: relative;
     bottom: 0;
     display: flex;
