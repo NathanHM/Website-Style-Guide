@@ -36,6 +36,18 @@ h1, h2, h3, h4 {
     font-family: "Montserrat";
 }
 
+h1 {
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
 h3, h4 {
     font-size: 30px;
     text-decoration: underline;
@@ -43,11 +55,12 @@ h3, h4 {
 
 h4 {
     font-size: 25px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 p {
     font-size: 18px;
+    letter-spacing: 1px;
 }
 
 a {
@@ -74,18 +87,7 @@ a:active {
 .banner {
     display: flex;
     justify-content: center;
-}
-
-.banner h1 {
-    font-size: 100px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-.banner h2 {
-    font-size: 50px;
-    margin-top: 0px;
-    padding-top: 0px;
+    padding: 45px;
 }
 
 .content-case{
@@ -104,6 +106,7 @@ a:active {
 .container {
     border: 2px solid grey;
     margin: 15px 0px;
+    padding: 25px;
     background-color: #262626;
     transition: 0.1s;
 }
@@ -111,10 +114,6 @@ a:active {
 .dark-mode .container {
     background-color: #e1e1e1;
     transition: 0.1s;
-}
-
-.colour-guide {
-    padding: 10px 20px;
 }
 
 .colour-panel {
@@ -167,9 +166,7 @@ a:active {
 }
 
 .font-guide {
-    padding: 2px 20px;
     display: block;
-
 }
 
 .font-guide h3 {
