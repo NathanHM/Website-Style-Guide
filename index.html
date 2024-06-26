@@ -5,6 +5,7 @@
     <title>My Website Style Guide</title>
     <link href="resources/style.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="resources/darkLightToggle.js"></script>
+    <script type="text/javascript" src="resources/jquery.js"></script>
 </head>
 
 <body onload="loadToggle()">
@@ -105,7 +106,9 @@
         <div class="footer-name">
             <p>Nathan Hannan-McCulloch</p>
         </div>
-        <div class="footer-button"><button onclick="toggle()">Dark Mode / Light Mode</button></div>
+        <div class="footer-button">
+            <button onclick="toggle()"><img id="theme-icon" src="resources/darkIcon.png" height="110px" width="110px"></button>
+        </div>
         <div class="footer-year">
             <p>2024</p>
         </div>
